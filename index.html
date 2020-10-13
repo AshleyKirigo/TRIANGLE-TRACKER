@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>TRIANGLE TRACKER</title>
+  <h1><strong>TRIANGLE TRACKER</strong></h1>
+</head>
+<body>
+  <div class="container">
+    <p>What the Triangle tracker does is determining whether a triangle
+      is isosceles,equilateral,scalene or NOT a triangle at all.</p>
+    <p> Kindly fill in the values of the traingle's three sides in the fields below</p>
+    <form id=formT>
+      <div class="form-group">
+        <label for="sideA">SIDE A</label>
+        <input type="number" class="form-control" id="aInput">
+      </div>
+      <div class="form-group">
+        <label for="sideB">SIDE B</label>
+        <input type="number" class="form-control" id="bInput">
+      </div>
+      <div class="form-group">
+        <label for="sideC">SIDE C</label>
+        <input type="number" class="form-control" id="cInput">
+      </div>
+      <button type="submit" onclick="typeOfTriangle()" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <p id="triangle-type"><strong>TRIANGLE IS:</strong></p>
+  <p id="result"></p>
+   <script src="./js/main.js"></script>
+</body>
+</html>
