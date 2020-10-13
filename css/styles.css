@@ -1,0 +1,16 @@
+.container {
+  width: 350px;
+  float: center;
+}
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+p {
+  color: whitesmoke;
+  text-align: center;
+}
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
